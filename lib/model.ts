@@ -557,7 +557,7 @@ export function buildRadar(snapshot: Snapshot, model: ModelConstants = MODEL): {
     board_size: board.length,
     pre_token_size: preCount,
     traded_size: tradedCount,
-    traded_unranked,
+    traded_unranked: tradedUnranked,
     calibrated_multiple: round4(calibrated),
     calibrated_samples: samples,
     rows: board.map(radarRow),
